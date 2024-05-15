@@ -23,4 +23,12 @@ public class GradeConverterTest {
         assertEquals(expected,actual);
 
     }
+
+    @Test
+    public void testConvert3() throws Exception {
+        String expected = "B";
+        String actual = gradeConverter.convert(80);
+        assertEquals(expected,actual);
+
+    }
 }
